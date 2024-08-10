@@ -4,11 +4,10 @@
 
 
 <template>
-  <div>Home</div>
+  <div>Supplier Purchases</div>
 </template>
 
 
 <style scoped>
 
 </style>
-
