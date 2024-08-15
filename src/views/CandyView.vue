@@ -1,9 +1,13 @@
 <script setup>
+
 </script>
 
+
 <template>
-  <footer>Footer</footer>
+  <div>Candy</div>
 </template>
 
+
 <style scoped>
+
 </style>
