@@ -1,11 +1,10 @@
 <script setup>
-import ForgetPassord from '@/components/ForgetPassord.vue'
+import ForgetPassword from '@/components/ForgetPassword.vue'
 </script>
 
 
 <template>
   <div>
-    <ForgetPassord />
   </div>
 </template>
 
