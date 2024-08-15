@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div></div>
+  <footer>Footer</footer>
 </template>
 
 <style scoped>
