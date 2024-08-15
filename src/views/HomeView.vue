@@ -1,10 +1,12 @@
 <script setup>
-
+import ForgetPassord from '@/components/ForgetPassord.vue'
 </script>
 
 
 <template>
-  <div>Home</div>
+  <div>
+    <ForgetPassord />
+  </div>
 </template>
 
 
