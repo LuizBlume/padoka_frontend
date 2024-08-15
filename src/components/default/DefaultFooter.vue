@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <footer>Footer</footer>
+  <footer><img src="@/assets/logo.png" alt=""></footer>
 </template>
 
 <style scoped>
