@@ -4,7 +4,7 @@
   <div class="container">
     <h1>Login</h1>
     <p>Preencha suas informações</p>
-    <form>
+    <form class="form">
       <div class="form-group inputBox">
         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder=" ">
         <label class="email labelInput" for="email">Email</label>
