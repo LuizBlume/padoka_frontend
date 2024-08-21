@@ -3,7 +3,8 @@
 
 
 <template>
-  <div></div>
+  <div>Home</div>
+  <CarouselHome />
 </template>
 
 
