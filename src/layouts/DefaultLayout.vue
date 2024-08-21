@@ -5,12 +5,22 @@ import { RouterView } from 'vue-router';
 </script>
 
 <template>
-    <DefaultHeader />
-    <main>
-        <RouterView />
-    </main>
-    <DefaultFooter />
+    <div class="container-layout">
+        <DefaultHeader />
+        <main>
+            <RouterView />
+        </main>
+        <DefaultFooter />
+    </div>
 </template>
 
 <style scoped>
+.container-layout {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header"
+    "main"
+    "footer";
+    grid-template-rows: 15% 65% 20%;
+}
 </style>

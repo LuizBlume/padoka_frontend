@@ -41,7 +41,7 @@ footer {
 .container-footer {
   display: flex;
   justify-content: space-between;
-  margin: 0 30px;
+  margin: 0 40px 0 60px;
 }
 
 .container-links {
