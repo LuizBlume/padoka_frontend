@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import SubmitButton from './SubmitButton.vue';
+</script>
 
 <template>
   <div class="password-container">
@@ -7,6 +9,7 @@
       <p>Digite seu email para receber um codigo de redefinição</p>
     </div>
     <input class="input-password" type="text" placeholder="Digite seu email" />
+    <SubmitButton class="submit-button" title="Enviar" />
   </div>
 
   
