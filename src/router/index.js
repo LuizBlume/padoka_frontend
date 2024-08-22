@@ -72,6 +72,11 @@ const router = createRouter({
           name: "product",
           component: import('../views/ProductView.vue'),
           params: true
+        },
+        {
+          path: "signIn",
+          name: "signIn",
+          component: import('../views/SignInView.vue')
         }
       ]
     }
