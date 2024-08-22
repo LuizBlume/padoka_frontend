@@ -2,38 +2,45 @@
 import { ref, onMounted } from 'vue';
 
 const carouselStyles = ref({});
-const cards = ref([1, 2, 3, 4]);
 const innerStyles = ref({});
-const transitioning = ref(false);
 const inner = ref(null);
+const cards = ref([1, 2, 3, 4]);
 const currentIndex = ref(0);
+const transitioning = ref(false);
 
 function action(index) {
+  console.log(index, currentIndex.value, Math.abs(index - currentIndex.value))
   if (index > currentIndex.value) {
     next(Math.abs(index - currentIndex.value));
   } else {
-    prev(Math.abs(currentIndex.value - index));
+    prev(Math.abs(index - currentIndex.value));
   }
   currentIndex.value = index;
+  console.log('Index alterado', currentIndex.value)
 }
 
-function next(multiplier) {
+function next(value) {
+  console.log('Função next executada', value)
   if (transitioning.value) return;
   transitioning.value = true;
 
-  moveLeft(multiplier);
+  moveLeft(value);
+
   afterTransition(() => {
+    console.log('Função callback executada')
     resetTranslate();
     transitioning.value = false;
   });
 }
 
-function prev(multiplier) {
+function prev(value) {
+  console.log('Função next executada')
   if (transitioning.value) return;
   transitioning.value = true;
 
-  moveRight(multiplier);
+  moveRight(value);
   afterTransition(() => {
+    console.log('Função callback executada')
     resetTranslate();
     transitioning.value = false;
   });
@@ -41,20 +48,23 @@ function prev(multiplier) {
 
 function moveLeft(multiplier) {
   innerStyles.value = {
-    transform: `translateX(-${multiplier * 1724.55}px)`
+    transform: `translateX(-${multiplier * document.documentElement.clientWidth}px)`
   };
+  console.log('Terminou moveLeft')
 }
 
 function moveRight(multiplier) {
   innerStyles.value = {
-    transform: `translateX(${multiplier * 1724.55}px)`
+    transform: `translateX(${multiplier * document.documentElement.clientWidth}px)`
   };
+  console.log('Terminou moveRight')
 }
 
 function afterTransition(callback) {
   const listener = () => {
     callback();
     inner.value.removeEventListener('transitionend', listener);
+    console.log('afterTransiction terminado')
   };
   inner.value.addEventListener('transitionend', listener);
 }
@@ -62,16 +72,17 @@ function afterTransition(callback) {
 function resetTranslate() {
   innerStyles.value = {
     transition: 'none',
-    transform: `translateX(-1724.55px)`
+    transform: `translateX(-${document.documentElement.clientWidth}px)`
   };
-  setTimeout(() => {
-    innerStyles.value.transition = 'transform 0.2s';
-  });
+  // setTimeout(() => {
+  //   innerStyles.value.transition = 'transform 0.2s';
+  // }, 2000);
 }
 
 onMounted(() => {
   resetTranslate();
-  carouselStyles.value = { width: `${document.documentElement.innerWidth}px` };
+  carouselStyles.value = { width: `${document.documentElement.clientWidth}px` };
+  console.log(carouselStyles.value);
 });
 </script>
 
