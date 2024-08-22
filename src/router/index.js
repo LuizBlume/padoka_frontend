@@ -23,9 +23,19 @@ const router = createRouter({
           component: import('../views/BestSellersView.vue')
         },
         {
+          path: "/requests",
+          name: "requests",
+          component: import('../views/RequestsView.vue')
+        },
+        {
           path: "/cakes",
           name: "cakes",
           component: import('../views/CakesView.vue')
+        },
+        {
+          path: "/perfil",
+          name: "perfil",
+          component: import('../views/PerfilView.vue')
         },
         {
           path: "/coffes",
@@ -72,6 +82,11 @@ const router = createRouter({
           name: "product",
           component: import('../views/ProductView.vue'),
           params: true
+        },
+        {
+          path: "signIn",
+          name: "signIn",
+          component: import('../views/SignInView.vue')
         }
       ]
     }
