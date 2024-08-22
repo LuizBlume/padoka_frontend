@@ -1,6 +1,6 @@
 <script setup>
-import DefaultHeader from '@/components/default/DefaultHeader.vue'
-import DefaultFooter from '@/components/default/DefaultFooter.vue'
+import DefaultHeader from '@/components/default/DefaultHeader.vue';
+import DefaultFooter from '@/components/default/DefaultFooter.vue';
 import { RouterView } from 'vue-router';
 </script>
 
@@ -21,6 +21,6 @@ import { RouterView } from 'vue-router';
     grid-template-areas: "header"
     "main"
     "footer";
-    grid-template-rows: 10% 75% 15%;;
+    grid-template-rows: 10% 80% 20%;
 }
 </style>
