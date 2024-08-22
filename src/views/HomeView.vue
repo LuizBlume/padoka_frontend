@@ -1,5 +1,4 @@
 <script setup>
-import ForgetPassword from '@/components/ForgetPassword.vue'
 </script>
 
 
