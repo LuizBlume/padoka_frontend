@@ -17,10 +17,10 @@ import { RouterView } from 'vue-router';
 <style scoped>
 .container-layout {
     display: grid;
-    height: 100vh;
+    height: 100%;
     grid-template-areas: "header"
     "main"
     "footer";
-    grid-template-rows: 15% 65% 20%;
+    grid-template-rows: 10% 75% 15%;;
 }
 </style>
