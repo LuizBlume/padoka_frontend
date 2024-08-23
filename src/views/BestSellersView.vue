@@ -1,10 +1,10 @@
 <script setup>
-
+import CardsPage from '@/components/global/CardsPage.vue';
 </script>
 
 
 <template>
-  <div>Best Sellers</div>
+  <CardsPage />
 </template>
 
 

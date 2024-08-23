@@ -227,7 +227,5 @@
     flex-shrink: 0;
     margin-left: 8px;
   }
-
-
 </style>
 
