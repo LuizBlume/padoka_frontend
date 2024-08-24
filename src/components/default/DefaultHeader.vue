@@ -1,4 +1,8 @@
 <script setup>
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+console.log(route.path)
 </script>
 
 <template>
@@ -15,7 +19,7 @@
         <img src="@/assets/logo.png" alt="">
       </div>
       <div class="nav-buttons">
-        <div class="container-search">
+        <div v-if="route.path !== '/stock' && route.path !== '/supplier-purchases'" class="container-search">
           <input type="search" placeholder="O que você procura?" id="inputSearch">
           <img src="@/assets/icons/search.svg" class="icons" alt="">
         </div>

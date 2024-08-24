@@ -21,6 +21,7 @@ import { RouterView } from 'vue-router';
     grid-template-areas: "header"
     "main"
     "footer";
-    grid-template-rows: 8% 82% 10%;
+    /* grid-template-rows: 8% 82% 10%; */
+    grid-template-rows: 12% 76% 12%;
 }
 </style>
