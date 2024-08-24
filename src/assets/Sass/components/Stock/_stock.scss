@@ -58,8 +58,19 @@
                     color: #424242;
                     padding: 10px;
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     justify-content: center;
+                    align-items: flex-end;
+
+                    .pendente {
+                        font-size: 18px;
+                        color: #B83232;   
+                    }
+                    .concluido {
+                        font-size: 18px;
+                        color: #75D42B;
+;
+                    }
                 }
             }
             .card-body {
