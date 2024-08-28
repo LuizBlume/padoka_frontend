@@ -7,17 +7,17 @@
       <h1>Promoção</h1>
       <div class="type-breads">
         <div class="breads">
-          <img src="@/assets/images/bolo.png" alt="">
+          <img src="../assets/images/promotions/acai.jpg" alt="">
           <div class="container-sale">
             <span class="sale">-10%</span>
           </div>
           <div class="card-body">
             <div class="card-header">
-              <h1>Bolos</h1>
+              <h1>Açaí</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Promoções do dia</p>
+              <p>Até durarem os estoques</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -26,17 +26,17 @@
           </div>
         </div>
         <div class="breads">
-          <img src="@/assets/images/bolo.png" alt="">
+          <img src="../assets/images/promotions/bolo-cenoura.jpg" alt="">
           <div class="container-sale">
             <span class="sale">-10%</span>
           </div>
           <div class="card-body">
             <div class="card-header">
-              <h1>Bolos</h1>
+              <h1>Bolo de Cenoura</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Promoções do dia</p>
+              <p>Até durarem os estoques</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -45,17 +45,17 @@
           </div>
         </div>
         <div class="breads">
-          <img src="@/assets/images/bolo.png" alt="">
+          <img src="../assets/images/promotions/brigadeiro-morango.jpg" alt="">
           <div class="container-sale">
             <span class="sale">-10%</span>
           </div>
           <div class="card-body">
             <div class="card-header">
-              <h1>Bolos</h1>
+              <h1>Bicho de Pé</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Promoções do dia</p>
+              <p>Até durarem os estoques</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -64,17 +64,17 @@
           </div>
         </div>
         <div class="breads">
-          <img src="@/assets/images/bolo.png" alt="">
+          <img src="../assets/images/promotions/cafe-espresso.jpg" alt="">
           <div class="container-sale">
             <span class="sale">-10%</span>
           </div>
           <div class="card-body">
             <div class="card-header">
-              <h1>Bolos</h1>
+              <h1>Café Espresso</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Promoções do dia</p>
+              <p>Até durarem os estoques</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -85,17 +85,17 @@
       </div>
       <div class="type-breads">
         <div class="breads">
-          <img src="@/assets/images/bolo.png" alt="">
+          <img src="../assets/images/promotions/pao-de-baguete.jpg" alt="">
           <div class="container-sale">
             <span class="sale">-10%</span>
           </div>
           <div class="card-body">
             <div class="card-header">
-              <h1>Bolos</h1>
+              <h1>Pão de Baguete</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Promoções do dia</p>
+              <p>Até durarem os estoques</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -104,17 +104,17 @@
           </div>
         </div>
         <div class="breads">
-          <img src="@/assets/images/bolo.png" alt="">
+          <img src="../assets/images/promotions/capuccino.jpg" alt="">
           <div class="container-sale">
             <span class="sale">-10%</span>
           </div>
          <div class="card-body">
             <div class="card-header">
-              <h1>Bolos</h1>
+              <h1>Capuccino</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Promoções do dia</p>
+              <p>Até durarem os estoques</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -124,18 +124,18 @@
         </div>
         <div class="breads">
           <div class="card-bread">
-            <img src="@/assets/images/bolo.png" alt="">
+            <img src="../assets/images/promotions/bolo-coco.jpg" alt="">
             <div class="container-sale">
               <span class="sale">-10%</span>
             </div>
           </div>
           <div class="card-body">
             <div class="card-header">
-              <h1>Bolos</h1>
+              <h1>Bolo de Coco</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Promoções do dia</p>
+              <p>Até durarem os estoques</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -144,17 +144,17 @@
           </div>
         </div>
         <div class="breads">
-          <img src="@/assets/images/bolo.png" alt="">
+          <img src="../assets/images/promotions/pao-tigre.jpg" alt="">
           <div class="container-sale">
             <span class="sale">-10%</span>
           </div>
           <div class="card-body">
             <div class="card-header">
-              <h1>Bolos</h1>
+              <h1>Pão Tigre</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Promoções do dia</p>
+              <p>Até durarem os estoques</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
