@@ -9,14 +9,14 @@
       <h1>Doces</h1>
       <div class="type-breads">
         <div class="breads">
-          <img src="https://s3-alpha-sig.figma.com/img/aed2/5892/0bd711f194723fb894047a9dc23c3d57?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gG6~r5xZdCxSIqRNxypSsRG9gnatZsyoH8x7VSrP0SvNA3WhD7gzd9fPYzdVYbKn4WTtODo2HA-zLoZkxjDN5SsY8Om02vWpPVdKz12lWnizeAwqTRXAMpajEj89dWeixDRcMSdvTr62x5dKIWddIJZilu79F78AYsxpdR4pNcxLo6E-AJPrfhTTQ0bIjcbWa9wg7fCmbhOzz5VNRStfp-AYhv~rNkFXNGNjcn6OQczKJTHrK-jHDooTPaRel5s7Afc2jwtR2W-3mA4xbXijNlMMqSYqSOO6iSiYHmjFvhcMU7BaHLDicwpzhdr~5dp~O1aJRbupwgWAAb0GISUKXw__" alt="">
+          <img src="../assets/images/candy/sonho.jpg" alt="">
           <div class="card-body">
             <div class="card-header">
-              <h1>Doce</h1>
+              <h1>Sonho</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Feito na hora e quentinho</p>
+              <p>Os melhores doces da região</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -25,14 +25,14 @@
           </div>
         </div>
         <div class="breads">
-          <img src="https://s3-alpha-sig.figma.com/img/aed2/5892/0bd711f194723fb894047a9dc23c3d57?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gG6~r5xZdCxSIqRNxypSsRG9gnatZsyoH8x7VSrP0SvNA3WhD7gzd9fPYzdVYbKn4WTtODo2HA-zLoZkxjDN5SsY8Om02vWpPVdKz12lWnizeAwqTRXAMpajEj89dWeixDRcMSdvTr62x5dKIWddIJZilu79F78AYsxpdR4pNcxLo6E-AJPrfhTTQ0bIjcbWa9wg7fCmbhOzz5VNRStfp-AYhv~rNkFXNGNjcn6OQczKJTHrK-jHDooTPaRel5s7Afc2jwtR2W-3mA4xbXijNlMMqSYqSOO6iSiYHmjFvhcMU7BaHLDicwpzhdr~5dp~O1aJRbupwgWAAb0GISUKXw__" alt="">
+          <img src="../assets/images/candy/churros.jpg" alt="">
           <div class="card-body">
             <div class="card-header">
-              <h1>Doce</h1>
+              <h1>Churros</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Feito na hora e quentinho</p>
+              <p>Os melhores doces da região</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -41,14 +41,14 @@
           </div>
         </div>
         <div class="breads">
-          <img src="https://s3-alpha-sig.figma.com/img/aed2/5892/0bd711f194723fb894047a9dc23c3d57?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gG6~r5xZdCxSIqRNxypSsRG9gnatZsyoH8x7VSrP0SvNA3WhD7gzd9fPYzdVYbKn4WTtODo2HA-zLoZkxjDN5SsY8Om02vWpPVdKz12lWnizeAwqTRXAMpajEj89dWeixDRcMSdvTr62x5dKIWddIJZilu79F78AYsxpdR4pNcxLo6E-AJPrfhTTQ0bIjcbWa9wg7fCmbhOzz5VNRStfp-AYhv~rNkFXNGNjcn6OQczKJTHrK-jHDooTPaRel5s7Afc2jwtR2W-3mA4xbXijNlMMqSYqSOO6iSiYHmjFvhcMU7BaHLDicwpzhdr~5dp~O1aJRbupwgWAAb0GISUKXw__" alt="">
+          <img src="../assets/images/candy/acai.jpg" alt="">
           <div class="card-body">
             <div class="card-header">
-              <h1>Doce</h1>
+              <h1>Açaí</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Montado na hora do jeito que quiser</p>
+              <p>Os melhores doces da região</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -57,14 +57,14 @@
           </div>
         </div>
         <div class="breads">
-          <img src="https://s3-alpha-sig.figma.com/img/aed2/5892/0bd711f194723fb894047a9dc23c3d57?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gG6~r5xZdCxSIqRNxypSsRG9gnatZsyoH8x7VSrP0SvNA3WhD7gzd9fPYzdVYbKn4WTtODo2HA-zLoZkxjDN5SsY8Om02vWpPVdKz12lWnizeAwqTRXAMpajEj89dWeixDRcMSdvTr62x5dKIWddIJZilu79F78AYsxpdR4pNcxLo6E-AJPrfhTTQ0bIjcbWa9wg7fCmbhOzz5VNRStfp-AYhv~rNkFXNGNjcn6OQczKJTHrK-jHDooTPaRel5s7Afc2jwtR2W-3mA4xbXijNlMMqSYqSOO6iSiYHmjFvhcMU7BaHLDicwpzhdr~5dp~O1aJRbupwgWAAb0GISUKXw__" alt="">
+          <img src="../assets/images/candy/brigadeiro-morango.jpg" alt="">
           <div class="card-body">
             <div class="card-header">
-              <h1>Doce</h1>
+              <h1>Bicho de pé</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Feito na hora e quentinho</p>
+              <p>Os melhores doces da região</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -75,14 +75,14 @@
       </div>
       <div class="type-breads">
         <div class="breads">
-          <img src="https://s3-alpha-sig.figma.com/img/aed2/5892/0bd711f194723fb894047a9dc23c3d57?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gG6~r5xZdCxSIqRNxypSsRG9gnatZsyoH8x7VSrP0SvNA3WhD7gzd9fPYzdVYbKn4WTtODo2HA-zLoZkxjDN5SsY8Om02vWpPVdKz12lWnizeAwqTRXAMpajEj89dWeixDRcMSdvTr62x5dKIWddIJZilu79F78AYsxpdR4pNcxLo6E-AJPrfhTTQ0bIjcbWa9wg7fCmbhOzz5VNRStfp-AYhv~rNkFXNGNjcn6OQczKJTHrK-jHDooTPaRel5s7Afc2jwtR2W-3mA4xbXijNlMMqSYqSOO6iSiYHmjFvhcMU7BaHLDicwpzhdr~5dp~O1aJRbupwgWAAb0GISUKXw__" alt="">
+          <img src="../assets/images/candy/brigadeiro.jpg" alt="">
           <div class="card-body">
             <div class="card-header">
-              <h1>Doce</h1>
+              <h1>Brigadeiro</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Feito na hora e quentinho</p>
+              <p>Os melhores doces da região</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -91,14 +91,14 @@
           </div>
         </div>
         <div class="breads">
-          <img src="https://s3-alpha-sig.figma.com/img/aed2/5892/0bd711f194723fb894047a9dc23c3d57?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gG6~r5xZdCxSIqRNxypSsRG9gnatZsyoH8x7VSrP0SvNA3WhD7gzd9fPYzdVYbKn4WTtODo2HA-zLoZkxjDN5SsY8Om02vWpPVdKz12lWnizeAwqTRXAMpajEj89dWeixDRcMSdvTr62x5dKIWddIJZilu79F78AYsxpdR4pNcxLo6E-AJPrfhTTQ0bIjcbWa9wg7fCmbhOzz5VNRStfp-AYhv~rNkFXNGNjcn6OQczKJTHrK-jHDooTPaRel5s7Afc2jwtR2W-3mA4xbXijNlMMqSYqSOO6iSiYHmjFvhcMU7BaHLDicwpzhdr~5dp~O1aJRbupwgWAAb0GISUKXw__" alt="">
+          <img src="../assets/images/candy/croissant-morango.jpg" alt="">
          <div class="card-body">
             <div class="card-header">
-              <h1>Doce</h1>
+              <h1>Croissant</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Feito na hora e quentinho</p>
+              <p>Os melhores doces da região</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -108,15 +108,15 @@
         </div>
         <div class="breads">
           <div class="card-bread">
-            <img src="https://s3-alpha-sig.figma.com/img/aed2/5892/0bd711f194723fb894047a9dc23c3d57?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gG6~r5xZdCxSIqRNxypSsRG9gnatZsyoH8x7VSrP0SvNA3WhD7gzd9fPYzdVYbKn4WTtODo2HA-zLoZkxjDN5SsY8Om02vWpPVdKz12lWnizeAwqTRXAMpajEj89dWeixDRcMSdvTr62x5dKIWddIJZilu79F78AYsxpdR4pNcxLo6E-AJPrfhTTQ0bIjcbWa9wg7fCmbhOzz5VNRStfp-AYhv~rNkFXNGNjcn6OQczKJTHrK-jHDooTPaRel5s7Afc2jwtR2W-3mA4xbXijNlMMqSYqSOO6iSiYHmjFvhcMU7BaHLDicwpzhdr~5dp~O1aJRbupwgWAAb0GISUKXw__" alt="">
+            <img src="../assets/images/candy/donnuts.jpg" alt="">
           </div>
           <div class="card-body">
             <div class="card-header">
-              <h1>Doce</h1>
+              <h1>Donnuts</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Feito na hora e quentinho</p>
+              <p>Os melhores doces da região</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
@@ -125,14 +125,14 @@
           </div>
         </div>
         <div class="breads">
-          <img src="https://s3-alpha-sig.figma.com/img/aed2/5892/0bd711f194723fb894047a9dc23c3d57?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gG6~r5xZdCxSIqRNxypSsRG9gnatZsyoH8x7VSrP0SvNA3WhD7gzd9fPYzdVYbKn4WTtODo2HA-zLoZkxjDN5SsY8Om02vWpPVdKz12lWnizeAwqTRXAMpajEj89dWeixDRcMSdvTr62x5dKIWddIJZilu79F78AYsxpdR4pNcxLo6E-AJPrfhTTQ0bIjcbWa9wg7fCmbhOzz5VNRStfp-AYhv~rNkFXNGNjcn6OQczKJTHrK-jHDooTPaRel5s7Afc2jwtR2W-3mA4xbXijNlMMqSYqSOO6iSiYHmjFvhcMU7BaHLDicwpzhdr~5dp~O1aJRbupwgWAAb0GISUKXw__" alt="">
+          <img src="../assets/images/candy/orelha-de-gato.png" alt="">
           <div class="card-body">
             <div class="card-header">
-              <h1>Doce</h1>
+              <h1>Orelha de Gato</h1>
             </div>
             <div class="card-info">
-              <p>Loremipsum Loremipsum</p>
-              <p>Loremipsum Loremipsum</p>
+              <p>Feito na hora e quentinho</p>
+              <p>Os melhores doces da região</p>
             </div>
             <div class="page">
               <p>Ir A Página</p>
