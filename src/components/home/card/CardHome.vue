@@ -48,7 +48,7 @@ import { RouterLink } from 'vue-router';
     display: flex;
     justify-content: center;
     column-gap: 30px;
-    margin: 50px 0 80px 0;
+    margin: 10% 0 8% 0;
 }
 .card {
     width: 250px;
