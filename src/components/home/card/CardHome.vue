@@ -26,8 +26,8 @@ import { RouterLink } from 'vue-router';
             <h3>Doce</h3>
             <p>ipsumlorem ipsumlorem ipsumlorem ipsumlorem</p>
             <div class="container-button-card">
-                <router-link>
-                    <button type="button" to="/">Ir a página <span><img src="@/assets/icons/vector.svg" alt=""></span></button>
+                <router-link to="/">
+                    <button type="button">Ir a página <span><img src="@/assets/icons/vector.svg" alt=""></span></button>
                 </router-link>
             </div>
         </div>
