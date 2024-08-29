@@ -1,93 +1,94 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
-      component: import('../layouts/DefaultLayout.vue'),
+      component: () => import('../layouts/DefaultLayout.vue'),
       children: [
         {
           path: "",
           name: "home",
-          component: import('../views/HomeView.vue')
+          component: () => import('../views/HomeView.vue')
         },
         {
-          path: "/contributors",
+          path: "contributors",
           name: "contributors",
-          component: import('../views/ContributorsView.vue')
+          component: () => import('../views/ContributorsView.vue')
         },
         {
-          path: "/best-sellers",
+          path: "best-sellers",
           name: "best-sellers",
-          component: import('../views/BestSellersView.vue')
+          component: () => import('../views/BestSellersView.vue')
         },
         {
-          path: "/requests",
+          path: "requests",
           name: "requests",
-          component: import('../views/RequestsView.vue')
+          component: () => import('../views/RequestsView.vue')
         },
         {
-          path: "/cakes",
+          path: "cakes",
           name: "cakes",
-          component: import('../views/CakesView.vue')
+          component: () => import('../views/CakesView.vue')
         },
         {
-          path: "/perfil",
+          path: "perfil",
           name: "perfil",
-          component: import('../views/PerfilView.vue')
+          component: () => import('../views/PerfilView.vue')
         },
         {
-          path: "/coffes",
+          path: "coffes",
           name: "coffes",
-          component: import('../views/CoffesView.vue')
+          component: () => import('../views/CoffesView.vue')
         },
         {
-          path: "/candy",
+          path: "candy",
           name: "candy",
-          component: import('../views/CandyView.vue')
+          component: () => import('../views/CandyView.vue')
         },
         {
-          path: "/breads",
+          path: "breads",
           name: "breads",
-          component: import('../views/BreadsView.vue')
+          component: () => import('../views/BreadsView.vue')
         },
         {
-          path: "/promotions",
+          path: "promotions",
           name: "promotions",
-          component: import('../views/PromotionsView.vue')
+          component: () => import('../views/PromotionsView.vue')
         },
         {
-          path: "/orders",
+          path: "orders",
           name: "orders",
-          component: import('../views/OrdersView.vue')
+          component: () => import('../views/OrdersView.vue')
         },
         {
-          path: "/stock",
+          path: "stock",
           name: "stock",
-          component: import('../views/StockView.vue')
+          component: () => import('../views/StockView.vue')
         },
         {
-          path: "/supplier-purchases",
+          path: "supplier-purchases",
           name: "supplier-purchases",
-          component: import('../views/SupplierPurchasesView.vue')
+          component: () => import('../views/SupplierPurchasesView.vue')
         },
         {
-          path: "/suppliers",
+          path: "suppliers",
           name: "suppliers",
-          component: import('../views/SuppliersView.vue')
+          component: () => import('../views/SuppliersView.vue')
         },
         {
-          path: "/product/:id",
+          path: "product/:id",
           name: "product",
-          component: import('../views/ProductView.vue'),
+          component: () => import('../views/ProductView.vue'),
           params: true
         },
         {
           path: "signIn",
           name: "signIn",
-          component: import('../views/SignInView.vue')
-        }
+          component: () => import('../views/SignInView.vue')
+        },
       ]
     }
   ]
