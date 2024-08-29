@@ -6,36 +6,36 @@ import { RouterLink } from 'vue-router';
     <div class="container-cards">
         <div class="card">
             <h3>Bolos</h3>
-            <p>ipsumlorem ipsumlorem ipsumlorem ipsumlorem</p>
+            <p>Os melhores bolos fresquinhos e com os melhores preços da região</p>
             <div class="container-button-card">
-                <router-link to="/">
+                <router-link to="/cakes">
                     <button type="button">Ir a página <span><img src="@/assets/icons/vector.svg" alt=""></span></button>
                 </router-link>
             </div>
         </div>
         <div class="card">
             <h3>Cafés</h3>
-            <p>ipsumlorem ipsumlorem ipsumlorem ipsumlorem</p>
+            <p>Os melhores cafés fresquinhos e com os melhores preços da região</p>
             <div class="container-button-card">
-                <router-link to="/">
+                <router-link to="/coffes">
                     <button type="button">Ir a página <span><img src="@/assets/icons/vector.svg" alt=""></span></button>
                 </router-link>
             </div>
         </div>
         <div class="card">
             <h3>Doce</h3>
-            <p>ipsumlorem ipsumlorem ipsumlorem ipsumlorem</p>
+            <p>Os melhores doces fresquinhos e com os melhores preços da região</p>
             <div class="container-button-card">
-                <router-link>
-                    <button type="button" to="/">Ir a página <span><img src="@/assets/icons/vector.svg" alt=""></span></button>
+                <router-link to="/candy">
+                    <button type="button">Ir a página <span><img src="@/assets/icons/vector.svg" alt=""></span></button>
                 </router-link>
             </div>
         </div>
         <div class="card">
             <h3>Pães</h3>
-            <p>ipsumlorem ipsumlorem ipsumlorem ipsumlorem</p>
+            <p>Os melhores pães fresquinhos e com os melhores preços da região</p>
             <div class="container-button-card">
-                <router-link to="/">
+                <router-link to="/breads">
                     <button type="button">Ir a página <span><img src="@/assets/icons/vector.svg" alt=""></span></button>
                 </router-link>
             </div>
