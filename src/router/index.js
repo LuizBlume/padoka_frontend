@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import { useAuthStore } from "@/stores/auth";
 
 
 const router = createRouter({
@@ -36,7 +37,8 @@ const router = createRouter({
         {
           path: "perfil",
           name: "perfil",
-          component: () => import('../views/PerfilView.vue')
+          component: () => import('../views/PerfilView.vue'),
+          meta: { requiresAuth: true },
         },
         {
           path: "coffes",
@@ -82,7 +84,8 @@ const router = createRouter({
           path: "product/:id",
           name: "product",
           component: () => import('../views/ProductView.vue'),
-          params: true
+          params: true,
+          meta: { requiresAuth: true },
         },
         {
           path: "signIn",
@@ -92,6 +95,21 @@ const router = createRouter({
       ]
     }
   ]
+})
+
+router.beforeEach((to, from, next) => {
+  const useAuth = useAuthStore();
+  
+  if (to.matched.some(record => record.meta.requiresAuth)) {
+      if (!useAuth.verificationAuth() && (to.name === 'product' || to.name === 'perfil')) {
+          next({name: 'signIn'});
+      }
+      else {
+          next();
+      }
+  } else {
+      next();
+  }
 })
 
 export default router
