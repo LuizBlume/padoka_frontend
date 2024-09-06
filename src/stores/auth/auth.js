@@ -1,7 +1,7 @@
 import { ref, reactive } from "vue";
 import { defineStore } from "pinia";
 import AuthService from '@/services/auth';
-import { db } from "../../db";
+import { db } from "../../../db";
 
 export const useAuthStore = defineStore('auth', () => {
     const inputSignIn = reactive({
@@ -9,14 +9,11 @@ export const useAuthStore = defineStore('auth', () => {
         password: ''
     });
 
-    const userData = ref({});
-
     function verificationAuth() {
         const verification = AuthService.verificationAuth();
         console.log(verification);
 
         if (verification) {
-            userData.value = verification;
             return true;
         } else {
             return false;
@@ -37,15 +34,15 @@ export const useAuthStore = defineStore('auth', () => {
         }
     };
 
-    function updateAuthentication(user) {
-        const index = db.users.findIndex(id => id.login === user.login);
-        const update = AuthService.updateAuthentication(user);
-        userData.value = update;
-    };
+    // function updateAuthentication(user) {
+    //     const index = db.users.findIndex(id => id.login === user.login);
+    //     const update = AuthService.updateAuthentication(user);
+    //     userData.value = update;
+    // };
 
     function removeAuthentication() {
         AuthService.removeAuthentication();
     }
 
-    return { inputSignIn, userData, verificationAuth, createAuthentication, updateAuthentication, removeAuthentication }
+    return { inputSignIn, userData, verificationAuth, createAuthentication, removeAuthentication }
 });

@@ -1,4 +1,5 @@
 <script setup>
+import
 </script>
 <template>
   <div class="container">

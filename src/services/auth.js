@@ -8,11 +8,11 @@ class AuthService {
         localStorage.setItem("login", JSON.stringify(user));
     }
 
-    updateAuthentication(user) {
-        localStorage.setItem("login", JSON.stringify(user));
-        const update = JSON.parse(localStorage.getItem("login"));
-        return update;
-    }
+    // updateAuthentication(user) {
+    //     localStorage.setItem("login", JSON.stringify(user));
+    //     const update = JSON.parse(localStorage.getItem("login"));
+    //     return update;
+    // }
 
     removeAuthentication() {
         localStorage.removeItem("login");
