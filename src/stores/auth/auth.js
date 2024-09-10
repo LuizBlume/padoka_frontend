@@ -12,18 +12,12 @@ export const useAuthStore = defineStore('auth', () => {
     function verificationAuth() {
         const verification = AuthService.verificationAuth();
         console.log(verification);
-
-        if (verification) {
-            return true;
-        } else {
-            return false;
-        };
     }
 
     function createAuthentication(user) {
         let isLogged = false;
         for (let register of db.users) {
-            if (register.login === user.login && register.password === user.password) {
+            if (register.email === user.email && register.password === user.password) {
                 AuthService.createAuthentication(user);
                 verificationAuth();
             }
@@ -44,5 +38,5 @@ export const useAuthStore = defineStore('auth', () => {
         AuthService.removeAuthentication();
     }
 
-    return { inputSignIn, userData, verificationAuth, createAuthentication, removeAuthentication }
+    return { inputSignIn, verificationAuth, createAuthentication, removeAuthentication }
 });

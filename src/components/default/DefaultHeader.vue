@@ -14,7 +14,7 @@ console.log(route.path)
         <router-link to="/candy" class="link">Doces</router-link>
         <router-link to="/breads" class="link">Pães</router-link>
         <router-link to="/promotions" class="link">Promoções</router-link>
-        <router-link to="/signin" class="link">Cadastro</router-link>
+        <router-link to="/signUp" class="link">Cadastro</router-link>
       </div>
       <div class="container-logo">
         <router-link to="/">
