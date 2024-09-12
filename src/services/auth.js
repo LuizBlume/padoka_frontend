@@ -1,7 +1,7 @@
 class AuthService {
     verificationAuth() {
         const verification = JSON.parse(localStorage.getItem("login"));
-        return typeof(verification.id) === 'number';
+        return verification;
     }
 
     createAuthentication(user) {

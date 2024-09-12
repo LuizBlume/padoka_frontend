@@ -11,7 +11,7 @@ export const useAuthStore = defineStore('auth', () => {
 
     function verificationAuth() {
         const verification = AuthService.verificationAuth();
-        console.log(verification);
+        return verification;
     }
 
     function createAuthentication(user) {

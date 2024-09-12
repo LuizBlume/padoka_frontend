@@ -16,7 +16,9 @@ export const useUserStore = defineStore('user', () => {
 
     const getUser = () => {
         const idStorage = JSON.parse(localStorage.getItem("login"));
+        console.log(db.users[6]);
         userData.value = UserService.getUser(idStorage.id);
+        console.log(userData.value);
     };
 
     const createUser = (user) => {
