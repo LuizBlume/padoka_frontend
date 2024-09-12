@@ -1,7 +1,15 @@
+import { db } from "../../../db";
+
 class AuthService {
     verificationAuth() {
         const verification = JSON.parse(localStorage.getItem("login"));
-        return verification;
+        if (verification == null) {
+            return false;
+        }
+        if (!db.users[verification.id]) {
+            db.users.push(verification);
+            return verification;
+        };
     }
 
     createAuthentication(user) {

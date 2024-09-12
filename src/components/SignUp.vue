@@ -6,7 +6,6 @@ const useUser = useUserStore();
 
 function submitForm() {
     if (useUser.inputSignUp.password === useUser.inputSignUp.confirmPassword) {
-        alert('Cadastro começado')
         useUser.createUser(useUser.inputSignUp);
     } else {
         alert('As senhas não são iguais!');

@@ -2,7 +2,8 @@ import { ref, reactive } from "vue";
 import { defineStore } from "pinia";
 import { db } from "../../../db";
 import { useRouter } from "vue-router";
-import UserService from '@/services/user';
+import { useAuthStore } from "@/stores/auth/auth";
+import UserService from '@/services/auth/user';
 
 export const useUserStore = defineStore('user', () => {
     const inputSignUp = reactive({
@@ -10,24 +11,22 @@ export const useUserStore = defineStore('user', () => {
         username: '',
         password: '',
         confirmPassword: ''
-    });
-    const userData = ref({});
+    })
+    const useAuth = useAuthStore();
     const router = useRouter();
+    const userData = ref({});
 
     const getUser = () => {
-        const idStorage = JSON.parse(localStorage.getItem("login"));
-        console.log(db.users[6]);
-        userData.value = UserService.getUser(idStorage.id);
+        const data = useAuth.verificationAuth();
+        userData.value = data;
         console.log(userData.value);
     };
 
     const createUser = (user) => {
         const index = (db.users[db.users.length - 1].id) + 1;
-        alert(index);
         delete user.confirmPassword;
-        UserService.createUser({id: index, ...user});
+        useAuth.createAuthentication({id: index, ...user});
         router.push({name: 'home'});
-        console.log(db.users);
     };
 
     const updateUser = (user) => {

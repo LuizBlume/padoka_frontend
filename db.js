@@ -5,5 +5,21 @@ export const db = {
         {"id": 3, "username": "Nicolas Steffens Pereira", "email": "nicolas.steffens@gmail.com", "password": "12345"},
         {"id": 4, "username": "Lucas Diniz dos Santos", "email": "lucas.diniz@gmail.com", "password": "12345"},
         {"id": 5, "username": "Kauã Martins Barros", "email": "kaua.barros@gmail.com", "password": "12345"}
+    ],
+    "requests": [
+        {"id": 1, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 2, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 3, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 4, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 5, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 6, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 7, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 8, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 9, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 10, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 11, "name": "Pão frânces", "quantity": "1x"},
+        {"id": 12, "name": "Pão frânces", "quantity": "1x"},
+    ],
+    "sold": [
     ]
 }

@@ -1,15 +1,13 @@
-import { db } from '../../db';
-import AuthService from '@/services/auth';
+import { db } from "../../../db";
+import AuthService from '@/services/auth/auth';
 
 class UserService {
     getUser(idUser) {
-        const userData = db.users.filter((user) => user.id === idUser.id);
+        const userData = db.users.filter((user) => user.id === idUser);
         return userData;
     }
     createUser(user) {
-        alert('Serviço de criação começado!')
-        db.users.push({...user});
-        AuthService.createAuthentication({id: user.id});
+        AuthService.createAuthentication({...user});
     }
     updateUser(user) {
         db.users[user.id - 1] = {user}
