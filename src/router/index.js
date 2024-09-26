@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import { useAuthStore } from "@/stores/auth/auth";
+import { useRequestStore } from '@/stores/request/request';
 
 
 const router = createRouter({
@@ -104,6 +105,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   const useAuth = useAuthStore();
+  const useRequest = useRequestStore();
   
   if (to.matched.some(record => record.meta.requiresAuth)) {
       if (!useAuth.verificationAuth() && (to.name === 'product' || to.name === 'perfil')) {
@@ -112,7 +114,8 @@ router.beforeEach((to, from, next) => {
       else {
           next();
       }
-  } else {
+  }
+  else {
       next();
   }
 })
