@@ -15,7 +15,6 @@ onMounted(() => {
         <h1>Pedidos</h1>
     </div>
     <div v-if="requests.length > 0" class="container">
-        {{ requests }}
             <div v-for="(request, requestIndex) in requests" :key="requestIndex" class="card">
                 <div class="card-header">
                     <h3>{{ request.name }}</h3>
