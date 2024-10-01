@@ -1,11 +1,15 @@
 import { defineStore } from "pinia";
-import { ref } from "vue";
+import { reactive, ref } from "vue";
 import { db } from "../../../db";
 import RequestService from '@/services/request/request';
 
 export const useRequestStore = defineStore('request', () => {
     const requestsStore = ref([]);
     const currentIndex = ref(0);
+    const editMode = reactive({
+        id: null
+    });
+    const currentQuantity = ref(0);
 
     const createRequest = (request) => {
         RequestService.createRequest(request);
@@ -65,5 +69,5 @@ export const useRequestStore = defineStore('request', () => {
     //     db.requests = [];
     // }
 
-    return { requestsStore, createRequest, updateRequest, deleteRequest, finishRequest, populateRequest, findIndexRequest };
+    return { requestsStore, editMode, currentQuantity, createRequest, updateRequest, deleteRequest, finishRequest, populateRequest, findIndexRequest };
 });

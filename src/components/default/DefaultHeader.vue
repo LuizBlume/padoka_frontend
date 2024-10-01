@@ -52,6 +52,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-right: 40px;
 }
 
 .links-header {
@@ -103,6 +104,11 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
+}
+
+.container-logo {
+  position: relative;
+  right: 15px;
 }
 
 .container-search,
