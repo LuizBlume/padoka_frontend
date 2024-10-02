@@ -1,5 +1,16 @@
 <script setup>
 import SubmitButton from './SubmitButton.vue';
+import { useUserStore } from '@/stores/auth/user';
+
+const useUser = useUserStore();
+
+function submitForm() {
+    if (useUser.inputSignUp.password === useUser.inputSignUp.confirmPassword) {
+        useUser.createUser(useUser.inputSignUp);
+    } else {
+        alert('As senhas não são iguais!');
+    }
+}
 </script>
 
 <template>
@@ -8,25 +19,25 @@ import SubmitButton from './SubmitButton.vue';
         <p>Preencha suas informações</p>
 
     <div class="form-group inputBox">
-        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder=" ">
-         <label class="email labelInput" for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder=" " v-model="useUser.inputSignUp.email">
+        <label class="email labelInput" for="email">Email</label>
     </div>
     <div class="form-group inputBox">
-        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder=" ">
-         <label class="email labelInput" for="email">Nome de usuário</label>
+        <input type="text" class="form-control" id="username" placeholder=" " v-model="useUser.inputSignUp.username">
+         <label class="email labelInput" for="username">Nome de usuário</label>
     </div>
     <div class="form-group inputBox">
-        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder=" ">
-         <label class="email labelInput" for="email">Senha</label>
+        <input type="password" class="form-control" id="password" placeholder=" " v-model="useUser.inputSignUp.password">
+         <label class="email labelInput" for="password">Senha</label>
     </div>
     <div class="form-group inputBox">
-        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder=" ">
-         <label class="email labelInput" for="email">Confirmar Senha</label>
+        <input type="password" class="form-control" id="confirmPassword" placeholder=" " v-model="useUser.inputSignUp.confirmPassword">
+         <label class="email labelInput" for="confirmPassword">Confirmar Senha</label>
     </div>
 
-    <p>Já possui cadastro?</p>
+    <RouterLink to="/signIn">Já possui cadastro?</RouterLink>
 
-        <SubmitButton title="Criar conta" class="button"/>
+    <SubmitButton @submit-form="submitForm" title="Criar conta" class="button"/>
     </div>
 </template>
 

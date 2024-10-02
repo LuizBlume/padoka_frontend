@@ -9,7 +9,7 @@ const informations = defineProps({
 </script>
 
 <template>
-    <input class="send-password" type="button" :value="informations.title">
+    <input class="send-password" @click="$emit('submitForm')" type="button" :value="informations.title">
 </template>
 
 <style scoped>
