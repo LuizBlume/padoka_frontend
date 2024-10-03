@@ -3,7 +3,7 @@ import ProductsSection from '@/components/ProductsSection.vue';
 </script>
 
 <template>
-  <img src="../assets//images/" alt="">
+  <img src="../assets/images/" alt="">
   <ProductsSection title="Pães" categoryProduct="breads" />
 </template>
 
