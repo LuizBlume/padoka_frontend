@@ -1,4 +1,5 @@
 <script setup>
+import { useSSRContext } from 'vue';
 import SubmitButton from './SubmitButton.vue';
 import { useUserStore } from '@/stores/auth/user';
 
@@ -8,7 +9,7 @@ function submitForm() {
     if (useUser.inputSignUp.password === useUser.inputSignUp.confirmPassword) {
         useUser.createUser(useUser.inputSignUp);
     } else {
-        alert('As senhas não são iguais!');
+        alert('As senhas não são iguais!', useUser.inputSignUp.password, useUser.inputSignUp.confirmPassword);
     }
 }
 </script>
